@@ -23,7 +23,7 @@ reales que me permitan mejorar mis habilidades técnicas y adquirir experiencia 
 
 <div>
 <h3>🎯 Futuro profesional</h3>
-<p>Formar parte de un equipo de desarrollo donde pueda aportar mis conocimientos y continuar aprendiendo.</p>
+<p> Formar parte de un equipo de desarrollo donde pueda aportar mis conocimientos y continuar aprendiendo.</p>
 </div>
 
 </div>
