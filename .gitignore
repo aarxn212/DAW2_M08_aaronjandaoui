@@ -1,0 +1,12 @@
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Configuración local y secretos
+.env
+.env.*
+
+# Dependencias y archivos generados
+node_modules/
+dist/
