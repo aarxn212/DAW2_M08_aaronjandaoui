@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #10131a;
+    color: #f1f5f9;
+    line-height: 1.7;
+}
+
+header {
+    border-bottom: 1px solid #292e3a;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+}
+
+nav .logo {
+    color: #60a5fa;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 24px;
+}
+
+.hero {
+    padding: 100px 0;
+}
+
+.etiqueta {
+    color: #60a5fa;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: clamp(36px, 6vw, 58px);
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+h1 span {
+    color: #60a5fa;
+}
+
+.hero > p:not(.etiqueta) {
+    max-width: 600px;
+    color: #b6c0d0;
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 22px;
+    background: #60a5fa;
+    color: #10131a;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section:not(.hero) {
+    padding: 45px 0;
+    border-top: 1px solid #292e3a;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+section p {
+    color: #b6c0d0;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+.tarjetas article {
+    background: #191e29;
+    border: 1px solid #292e3a;
+    border-radius: 8px;
+    padding: 22px;
+}
+
+.tarjetas h3 {
+    color: #60a5fa;
+    margin-bottom: 8px;
+}
+
+#contacto a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #60a5fa;
+}
+
+footer {
+    border-top: 1px solid #292e3a;
+    text-align: center;
+    padding: 25px;
+    color: #94a3b8;
+}
+
+@media (max-width: 500px) {
+    header {
+        padding: 18px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .hero {
+        padding: 65px 0;
+    }
+}
